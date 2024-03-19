@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(214, 233, 233);
+}
+
+#todo{
+    
+    width: 40%;
+    height: auto;
+    margin:auto;
+    margin-top: 100px;
+
+
+}
+
+#superior{
+    height: auto;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    padding-bottom: 20px;
+}
+#inferior{
+    height: auto;
+    display: flex;
+}
+#ladoE{
+    width: 50%;
+    height: auto;
+    background-color:rgb(67, 151, 151) ;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    color: white;
+    border-bottom-left-radius: 7px;
+}
+#ladoD{
+    width: 50%;
+    height: auto;
+    background-color:rgb(37, 194, 194) ;
+    color: white;
+    padding-bottom: 20px;
+    padding-left: 25px;
+    border-bottom-right-radius: 7px;
+}
+
+.corbranca{
+    color: white;
+}
+
+.corciano{
+    color: rgb(56, 161, 161);
+}
+
+.corcinza{
+    color:rgb(141,135,135)
+}
+
+.corverde{
+    color: rgb(189,230,25);
+}
+.corazulclaro{
+    color: rgb(112, 182, 182);
+}
+#ladoE button{
+    background-color: rgb(189,230,25);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    width: 80%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#ladoE button:hover{
+background-color: cadetblue;
+cursor: pointer;
+}
+
+
+.tamanho{
+    font-size: 30px;
+}
+
+#ladoD ul{
+    list-style-type: none;
+    color: rgb(163, 235, 235);
+    padding-left: 0px;
+}
+
+#ladoD li{
+    font-size: small;
+}
